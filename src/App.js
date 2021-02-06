@@ -9,8 +9,7 @@ function SecPg(){
         Chromecast, Apple TV, Blu-ray players,<br /> <span className='and-more'>and more.</span>
         </p>
         <img className="tv-img" src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png' />
-        {/* <img className="tv-background-img" src='https://i.pinimg.com/originals/95/09/a4/9509a4614438d6016db11f1b71d00591.jpg' /> */}
-      <hr className="sec-page-sec-hr"/>
+        <img className="tv-background-img" src='https://i.ibb.co/crqPKQP/tv-background-pic.jpg' /><hr className="sec-page-sec-hr"/>
     </div>
   );
 }

@@ -94,7 +94,7 @@ html {
 }
 
 .sec-page-sec-hr{
-  margin-top: 144px;
+  margin-top: 60px;
 }
 
 .secpg-first-p{
@@ -118,6 +118,14 @@ html {
 
 .tv-img {
   height: 400px;
+  position:relative;
   margin-right: -600px;
   margin-top: -350px;
+  padding: 0;
+}
+.tv-background-img {
+  height: 150px;
+  position: absolute;
+  right: 240px;
+  top: 790px;
 }
