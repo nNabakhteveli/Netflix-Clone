@@ -1,15 +1,29 @@
 import './App.css';
 
-function SecPg(){
+function ThirdPage(){
+  return(
+    <div className="third-page">
+        <p className="third-first-p">Download your shows</p><br />
+        <span className='span1'>to watch offline.</span>
+        <p className="third-sec-p">Save your favorites easily and always have</p><br />
+        <span className='span2'>something to watch.</span>
+        <img className="mobile-img" src='https://i.ibb.co/55t87BV/for-mobile.jpg' alt='mobile' />
+        <hr className="third-page-sec-hr" />
+    </div>
+  );
+}
+
+
+function SecondPage(){
   return(
     <div className="second-page">
       <hr className="sec-page-first-hr" />
-        <p className="secpg-first-p">Enjoy on your TV.</p>
-        <p className="secpg-sec-p">Watch on Smart TVs, Playstation, Xbox,<br />
+        <p className="sec-first-p">Enjoy on your TV.</p>
+        <p className="sec-sec-p">Watch on Smart TVs, Playstation, Xbox,<br />
         Chromecast, Apple TV, Blu-ray players,<br /> <span className='and-more'>and more.</span>
         </p>
-        <img className="tv-img" src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png' />
         <img className="tv-background-img" src='https://i.ibb.co/crqPKQP/tv-background-pic.jpg' /><hr className="sec-page-sec-hr"/>
+        <img className="tv-img" src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png' />
     </div>
   );
 }
@@ -30,7 +44,8 @@ function App() {
           <p className="fifth-P">Only new members are eligible for this offer.</p>
         </div>
       </header>
-      <SecPg />
+      <SecondPage />
+      <ThirdPage />
     </div>
   );
 }
