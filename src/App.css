@@ -116,13 +116,14 @@ html {
 }
 
 .and-more {
-  margin-left: -364px;
+  margin-left: -375px;
 }
 
 .tv-img {
   height: 400px;
   margin-right: -600px;
   margin-top: -500px;
+  margin-bottom: 50px;
   padding: 0;
 }
 
@@ -130,7 +131,7 @@ html {
   height: 215px;
   position: absolute;
   right: 180px;
-  top: 775px;
+  top: 725px;
 }
 
 .third-page {
@@ -182,4 +183,55 @@ html {
   position: absolute;
   top: 1380px;
   right: 448px;
+}
+
+
+.fourth-page {
+  height: 400px;
+  margin-top: -10px;
+}
+
+.fourth-page-hr {
+  border: 4px solid #222222;
+  margin-top: 60px;
+}
+
+.collage-img {
+  height: 380px;
+  margin-left: 700px;
+  margin-top: -300px;
+  padding-bottom: -20px;
+  padding-top: 25px;
+  margin-bottom: -30px;
+  padding-right: 0;
+}
+
+.fourth-first-p{
+  color: white;
+  font-size: 50px;
+  margin-top: 60px;
+  margin-left: -610px;
+  margin-bottom: -35px;
+}
+
+.fourth-sec-p {
+  color: white;
+  margin-top: 55px;
+  font-size: 28px;
+  margin-left: -490px;
+  margin-bottom: -35px;
+}
+
+.fourth-span-1 {
+  color: white;
+  font-size: 28px;
+  margin-left: -480px;
+  margin-bottom: -5px;
+}
+
+.fourth-span-2 {
+  font-size: 28px;
+  color: white;
+  margin-left: -775px;
+  margin-bottom: 126px;
 }
