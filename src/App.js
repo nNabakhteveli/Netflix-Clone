@@ -1,5 +1,43 @@
 import './App.css';
 
+
+function Footer(){
+  return(
+    <div className='footer'>
+      <div>
+        <a href='#'><p className='questions' style={{textDecoration:'none', color: 'grey'}}>Question? Contact us.</p></a>
+      </div>
+      <div className="firstFour">
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>FAQ</p></a>
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Investor Relations</p></a>
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Privacy</p></a>
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Speed Test</p></a>
+      </div>
+
+      <div className="secondFour">
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Help Center</p></a>
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Jobs</p></a>
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Cookie Preferences</p></a>
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Legal Notices</p></a>
+      </div>
+
+      <div className="thirdFour">
+        <a href='#' style={{textDecoration:'none', color: 'grey'}} ><p>Account</p></a>
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Ways to Watch</p></a>
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Coprorate Information</p></a>
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Netflix Originals</p></a>
+      </div>
+
+      <div className="fourthFour">
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Media Center</p></a>
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Terms of Use</p></a>
+        <a href='#' style={{textDecoration:'none', color: 'grey'}}><p>Contact Us</p></a>
+      </div>
+    </div>
+  );
+}
+
+
 function FourthPage(){
   return(
     <div className="fourth-page">
@@ -63,6 +101,7 @@ function App() {
       <SecondPage />
       <ThirdPage />
       <FourthPage />
+      <Footer />
     </div>
   );
 }

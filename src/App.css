@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  scroll-behavior: smooth;
   font-family: 'Noto Sans JP', sans-serif;
   background-color: #000000;
 }
 
 html {
   background-color: #000000;
+  /* scroll-behavior: smooth; */
 }
 
 .sign-in-button{
@@ -234,4 +234,21 @@ html {
   color: white;
   margin-left: -775px;
   margin-bottom: 126px;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+}
+
+.questions {
+  margin-top: -20px;
+  margin-left: 150px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.firstFour, .secondFour, .thirdFour, .fourthFour {
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
 }
