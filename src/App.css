@@ -239,6 +239,7 @@ html {
 .footer {
   display: flex;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .questions {
@@ -248,7 +249,16 @@ html {
 }
 
 .firstFour, .secondFour, .thirdFour, .fourthFour {
-  padding: 20px;
+  padding: 30px;
   font-size: 15px;
   font-family: 'PT Sans', sans-serif;
+}
+
+.language{
+  padding: 15px;
+  font-size: 15px;
+  margin-top: 200px;
+  margin-left: -1200px;
+  color: grey;
+  background: black;
 }
