@@ -6,7 +6,7 @@
 
 html {
   background-color: #000000;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 .sign-in-button{
@@ -61,7 +61,6 @@ html {
 
 .fifth-P {
   font-size: 18px;
-
 }
 
 .div1 {
@@ -71,7 +70,6 @@ html {
 .email-input {
   width: 450px;
   height: 42px;
-  
 }
 
 .button-within-input {
