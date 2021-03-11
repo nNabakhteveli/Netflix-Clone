@@ -5,7 +5,7 @@ import { App } from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App language='en'/>
+    <App lang='eng'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
