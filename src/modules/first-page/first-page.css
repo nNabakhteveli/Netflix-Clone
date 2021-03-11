@@ -1,0 +1,72 @@
+.sign-in-button {
+    margin-top: -70px;
+    margin-left: 1210px;
+    font-size: 21px;
+    background:#E50914;
+    border:#E50914;
+    color: white;
+    padding: 7px;
+    border-radius: 3px;
+    width: 90px;
+}
+  
+.netflix-logo {
+    margin-right: 1100px;
+    margin-top: -50px;
+    height: 95px;
+}
+  
+.App-header {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8) ), url('https://cdn.mos.cms.futurecdn.net/98GnqFKaUMYU3GG5HxhLWZ.jpg');
+    background-position:center top;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+.first-P {
+    font-size: 60px;
+    margin-top: 150px;
+}
+  
+.sec-P  {
+    margin-top: -70px;
+    font-size: 50px;
+}
+  
+.third-P {
+    margin-top: -45px;
+    font-size: 30px;
+}
+  
+.fourth-P {
+    margin-top: 0px;
+    font-size: 20px;
+}
+  
+.fifth-P {
+    font-size: 18px;
+}
+  
+.div1 {
+    display: table-cell;
+}
+  
+.email-input {
+    width: 450px;
+    height: 42px;
+}
+  
+.button-within-input {
+    white-space: nowrap;
+    width: 195px;
+    height: 47px;
+    font-size: 18px;
+    background-color: #F40612;
+    border: #F40612;
+    color: white;
+}

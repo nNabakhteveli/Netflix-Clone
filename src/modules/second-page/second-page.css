@@ -1,0 +1,49 @@
+.second-page {
+    height: 300px;
+    margin-top: -8px;
+    padding-top: 0;
+}
+  
+.sec-page-first-hr, .sec-page-sec-hr {
+    border: 4px solid #222222;
+}
+  
+.sec-page-sec-hr {
+    margin-top: 60px;
+}
+  
+.sec-first-p {
+    color: white;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: -750px;
+    padding-top: 50px;
+}
+
+.sec-sec-p {
+    color: white;
+    margin-top: -40px;
+    margin-left: -640px;
+    margin-left: -640px;
+    font-size: 28px;
+    padding-bottom: 50px;
+}
+  
+.and-more {
+    margin-left: -375px;
+}
+  
+.tv-img {
+    height: 400px;
+    margin-right: -600px;
+    margin-top: -500px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+  
+.tv-background-img {
+    height: 215px;
+    position: absolute;
+    right: 180px;
+    top: 725px;
+}
