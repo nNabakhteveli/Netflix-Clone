@@ -1,4 +1,5 @@
 import React from 'react';
+
 export class SecondPage extends React.Component {
   render() {
     return (
