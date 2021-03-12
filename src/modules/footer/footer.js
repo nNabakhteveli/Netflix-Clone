@@ -35,12 +35,12 @@ export class Footer extends React.Component {
           </div>
           <div>
             <select className='language'>
-              <option selected value>English</option>
-              <option>ქართული</option>
-              <option>русский</option>
+              <option selected value value='eng'>English</option>
+              <option value='geo'>ქართული</option>
+              <option value='rus'>русский</option>
             </select>
           </div>
         </div>
-        );
+      );
     }
 }
