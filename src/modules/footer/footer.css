@@ -5,21 +5,26 @@
 }
   
 .questions {
-    margin-top: -20px;
-    margin-left: 150px;
+    position: relative;
+    left: 210px;
+    top: 30px;
+    margin-top: 15px;
+    font-size: 1.1rem;
     font-family: 'PT Sans', sans-serif;
+    margin-left: 170px;
 }
   
 .firstFour, .secondFour, .thirdFour, .fourthFour {
     padding: 30px;
     font-size: 15px;
+    margin-top: 80px;
     font-family: 'PT Sans', sans-serif;
 }
   
-.language{
+.language {
     padding: 15px;
     font-size: 15px;
-    margin-top: 200px;
+    margin-top: 270px;
     margin-left: -1200px;
     color: grey;
     background: black;

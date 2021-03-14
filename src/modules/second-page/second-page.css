@@ -2,26 +2,17 @@
     height: 300px;
     margin-top: -8px;
 }
-  
-.sec-page-first-hr, .sec-page-sec-hr {
-    border: 4px solid #222222;
-}
-  
-.sec-page-sec-hr {
-    margin-top: 60px;
-}
-  
-.pre-text-span {
-    font-size: 46px;
-}
 
 .pre-text {
+    position: relative;
+    top: -50px;
     color: white;
     font-size: 28px;
     font-family: 'Noto Sans JP', sans-serif;
-    margin-top: 100px;
-    margin-left: 50px;
-    padding-bottom: 0;
+}
+
+.pre-text-span {
+    font-size: 46px;
 }
 
 .tv-img {
@@ -29,7 +20,6 @@
     margin-top: -260px;
     margin-left: 750px;
     padding: 0;
-    z-index:300000;
 }
   
 .video {
@@ -40,5 +30,15 @@
 }
 
 .tv-div {
-    margin-top: -40px;
+    margin-top: -110px;
+}
+
+
+/* HR tags styling */
+.sec-page-first-hr, .sec-page-sec-hr {
+    border: 4px solid #222222;
+}
+  
+.sec-page-sec-hr {
+    margin-top: 60px;
 }

@@ -1,14 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
 .third-page {
     height: 300px;
     margin-top: -10px;
     color: white;
-}
-
-.third-page-hr {
-    border: 4px solid #222222;
-    margin-top: 80px;
 }
 
 .third-page-pre {
@@ -19,13 +12,13 @@
 .pre-header {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 37px;
-    padding-bottom: -180px;
-    margin-bottom: -5px;
+    padding-bottom: 5px;
+    margin: 0;
 }
 
 .full-pre {
     font-size: 26px;
-    margin-top: 280px;
+    margin-top: 300px;
     margin-left: 550px;
 }
 
@@ -35,4 +28,9 @@
     margin-left: 200px;
     padding-top: 25px;
     margin-bottom: -40px;
+}
+
+.third-page-hr {
+    border: 4px solid #222222;
+    margin-top: 80px;
 }

@@ -15,8 +15,8 @@ export class ThirdPage extends React.Component {
               </pre>
             </span>
             {
-              `             Save your favorites easily and always have 
-             something to watch.`
+              `              Save your favorites easily and always have 
+              something to watch.`
             }
           </pre>
         </div>

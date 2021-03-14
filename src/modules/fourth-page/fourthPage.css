@@ -1,49 +1,30 @@
 .fourth-page {
     height: 400px;
     margin-top: -10px;
+    color: white;
 }
-  
-.fourth-page-hr {
-    border: 4px solid #222222;
-    margin-top: 60px;
+
+.pre-div {
+    margin-top: 210px;
+    margin-left: 100px;
+}
+
+.pre-header {
+    font-size: 41px;
+}
+
+.pre-text {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 20px;
 }
 
 .collage-img {
     height: 380px;
-    margin-left: 700px;
-    margin-top: -300px;
-    padding-bottom: -20px;
-    padding-top: 25px;
-    margin-bottom: -30px;
-    padding-right: 0;
+    margin-left: 760px;
+    margin-top: -315px;
 }
-  
-.fourth-first-p{
-    color: white;
-    font-size: 50px;
-    margin-top: 60px;
-    margin-left: -610px;
-    margin-bottom: -35px;
-}
-  
-.fourth-sec-p {
-    color: white;
-    margin-top: 55px;
-    font-size: 28px;
-    margin-left: -490px;
-    margin-bottom: -35px;
-}
-  
-.fourth-span-1 {
-    color: white;
-    font-size: 28px;
-    margin-left: -480px;
-    margin-bottom: -5px;
-}
-  
-.fourth-span-2 {
-    font-size: 28px;
-    color: white;
-    margin-left: -775px;
-    margin-bottom: 126px;
+
+.fourth-page-hr {
+    border: 4px solid #222222;
+    margin-top: 50px;
 }

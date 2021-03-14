@@ -4,6 +4,7 @@
 @import './modules/third-page/third-page.css';
 @import './modules/fourth-page/fourthPage.css';
 @import './modules/footer/footer.css';
+@import './modules/footer/copyright.css';
 
 
 .App {
