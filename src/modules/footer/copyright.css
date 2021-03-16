@@ -3,24 +3,35 @@
 }
 
 .App-logo {
+  position: relative;
+  top: 420px;
+  right: 450px;
   height: 15vmin;
   pointer-events: none;
-  background: black;
-  }
+}
+
+.copy-text {
+  font-family: 'PT Sans', sans-serif;
+  color: grey;
+  position: relative;
+  top: 410px;
+  right: 450px;
+  font-size: 1.1rem;
+}
   
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
+}
   
 
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(360deg);
+  }
+}
   

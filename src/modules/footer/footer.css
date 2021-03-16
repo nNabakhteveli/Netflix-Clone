@@ -6,25 +6,49 @@
   
 .questions {
     position: relative;
-    left: 210px;
-    top: 30px;
-    margin-top: 15px;
+    left: 188px;
+    top: 40px;
     font-size: 1.1rem;
+    text-align: left;
+    text-decoration: none;
+    color: grey;
     font-family: 'PT Sans', sans-serif;
     margin-left: 170px;
+    transition: .5s;
+
+}
+
+.questions:hover {
+    transition: 0.2s;
+    color: white;
 }
   
 .firstFour, .secondFour, .thirdFour, .fourthFour {
+    position: relative;
     padding: 30px;
-    font-size: 15px;
+    text-align: left;
     margin-top: 80px;
-    font-family: 'PT Sans', sans-serif;
 }
-  
+
+.list-item {
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    color: grey;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.list-item:hover {
+    transition: 0.2s;
+    color: white;
+}
+
 .language {
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
     padding: 15px;
     font-size: 15px;
-    margin-top: 270px;
+    margin-top: 290px;
     margin-left: -1200px;
     color: grey;
     background: black;
